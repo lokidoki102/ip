@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import org.junit.jupiter.api.Test;
 
 public class CommandExceptionTest {
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void constructor_withMessage_messageIsSet() {
         String errorMessage = "Test error message";

@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import lucky.tasks.Task;
 
 public class UnmarkCommandTest {
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void execute_validInput_success() throws IOException, CommandException {
         UnmarkCommand unmarkCommand = new UnmarkCommand();

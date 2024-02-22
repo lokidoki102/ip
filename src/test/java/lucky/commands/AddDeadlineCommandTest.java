@@ -13,7 +13,7 @@ import lucky.tasks.Task;
 
 
 public class AddDeadlineCommandTest {
-
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void execute_validInput_success() {
         AddDeadlineCommand addDeadlineCommand = new AddDeadlineCommand();

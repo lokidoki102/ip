@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import lucky.tasks.Task;
 
 public class CommandTest {
-
     @Test
     public void execute_defaultBehavior_outputMessage() {
         Command command = new Command();

@@ -7,7 +7,7 @@ import java.io.IOException;
 import org.junit.jupiter.api.Test;
 
 public class ParseCommandTest {
-
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void parse_viewListCommand_success() throws IOException {
         String[] input = {"list"};

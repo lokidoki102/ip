@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import lucky.tasks.Task;
 
 public class AddEventCommandTest {
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void execute_validInput_success() {
         AddEventCommand addEventCommand = new AddEventCommand();

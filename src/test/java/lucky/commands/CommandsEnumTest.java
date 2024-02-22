@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class CommandsEnumTest {
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void getCommandEnum_validInput_returnCorrectEnum() {
         String input = "todo";

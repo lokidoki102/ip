@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import lucky.tasks.Task;
 
 public class DeleteCommandTest {
-
+    // Used ChatGPT to improve Junit to ensure that it covers all test cases
     @Test
     public void execute_validInput_success() throws IOException, CommandException {
         DeleteCommand deleteCommand = new DeleteCommand();
